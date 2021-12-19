@@ -1,0 +1,266 @@
+.imageheader{
+    background-image: url("../images/ba1.jpg");
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.imageheader:before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.navgrispad{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.btnnavverde{
+    color: #28A844 !important;
+}
+
+.btnnavverde:hover{
+    color: #FFC900 !important;
+}
+
+.textheader{
+    background-color: rgba(0, 0, 0, 0);
+    color:white;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 280px;
+}
+
+.textheader h2{
+    font-size: 2rem;
+}
+
+.textheader p{
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.comprarticketsbtntransp{
+    font-size: 1.1rem;
+    border-radius: 6px;
+    padding: 8px 12px 8px 12px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border:2px solid white;
+    text-decoration: none;
+}
+
+.comprarticketsbtntransp:hover{
+    background-color: rgba(255,255,255,0.7);
+    color: #353A40;
+}
+
+.comprarticketsbtnverde{
+    font-size: 1.1rem;
+    border-radius: 6px;
+    padding: 8px 12px 8px 12px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border:2px solid #28A844;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.comprarticketsbtnverde:hover{
+    background-color: #28A844;
+    color: white;
+}
+
+.titulomain{
+    width: 100%;
+    text-align: center;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.titulomain p{
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+}
+
+.titulomain h1{
+    font-size: 2rem;
+    margin-bottom: -0.2rem;
+}
+
+.marginorador{
+    margin-left: 50px; 
+    margin-right: 50px;
+}
+
+.contenedortarjetaorador{
+    margin:auto;
+}
+
+.tarjetaorador{
+    height: 33rem;
+}
+
+.tarjetaorador img{
+    height: 20rem;
+}
+
+.tarjetaorador h5{
+    font-size: 1.2rem;
+    margin-bottom:0.8rem;
+}
+
+.tarjetaorador p{
+    font-size: 0.7rem;
+    line-height: 200%;
+}
+
+.tarjetabtn{
+    font-size: 0.7rem;
+    border-radius: 3px;
+    color: white;
+    border:none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tarjetabtnJS{
+    background-color: #FFC900;
+    color:black;
+}
+
+.tarjetabtnReact{
+    background-color: #16A2B9;
+    color:white;
+}
+
+.tarjetabtnNegocios{
+    background-color: #817981;
+    color:white;
+}
+
+.tarjetabtnST{
+    background-color: #DF4151;
+    color:white;
+}
+
+.descripcionBsAS{
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.descripcionBsASright{
+    background-color:#353A40;
+    color: white;
+}
+
+.descripcionBsASright p{
+    font-size: 1rem;
+    margin-bottom:2rem;
+}
+
+.descripcionBsAStext{
+    margin-bottom: 1rem;
+}
+
+.conocemasbtntransp{
+    font-size: 1rem;
+    border-radius: 6px;
+    padding: 8px 12px 8px 12px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border:2px solid white;
+    text-decoration: none;
+}
+
+.conocemasbtntransp:hover{
+    background-color: rgba(255,255,255,0.7);
+    color: #353A40
+}
+
+.parrafoconvinculo{
+    margin-top:1rem;
+    font-size: 1rem !important;
+    margin-bottom: -0.3rem !important;
+}
+
+.parrafoconvinculo span{
+    border-bottom:1px dotted #9999CC;
+}
+
+.formularioorador{
+    width: 100%;
+    margin-top: 2.5rem;
+    padding-left: 60px;
+    padding-right: 50px;
+}
+
+label{
+    font-size: 0.8rem;
+}
+
+.enviarbtnform{
+    font-size: 1.1rem;
+    border-radius: 6px;
+    padding: 8px 12px 8px 12px;
+    cursor: pointer;
+    color: white;
+    background-color: #96C93E;
+    border:1px solid white;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.enviarbtnform:hover{
+    background-color: #5EC93E;
+    color: white;
+}
+
+
+
+.bg-light {
+    background-color: #1C3D4E!important;
+    
+}
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.mt-auto {
+    margin-top: auto!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+footer {
+    display: block;
+    background-color: #1C3D4E;
+    width: 100%;
+}
+
+.footernavbar {
+    text-align: center;
+    color:white!important;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.footernavbar:hover{
+    color: #96989A!important;;
+}
