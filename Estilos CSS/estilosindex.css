@@ -231,8 +231,6 @@ label{
     color: white;
 }
 
-
-
 .bg-light {
     background-color: #1C3D4E!important;
     
@@ -246,6 +244,10 @@ label{
 }
 *, ::after, ::before {
     box-sizing: border-box;
+}
+
+.espaciolinea {
+    line-height: 2rem;
 }
 
 footer {
